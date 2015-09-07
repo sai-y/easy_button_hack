@@ -1,8 +1,8 @@
 --button.lua
-buttonPin = 2 -- this is ESP-01 pin GPIO02
-local pin = 0            --> GPIO2
+buttonPin = 2 
+local pin = 0            
 local value = gpio.LOW
-local duration = 1000    --> 1 second
+local duration = 1000   
 gpio.mode(buttonPin,gpio.INT,gpio.PULLUP)
 gpio.mode(pin,gpio.OUTPUT,gpio.PULLUP)
 
